@@ -1,18 +1,7 @@
-import React, { useEffect, useRef } from 'react'
 import infinityCasteGif from "../assets/infinity-castle.gif"
 import orpheausFlagImg from "../assets/flag-orpheus-left.svg"
 
 const Home = () => {
-//   const titleRef = useRef(null)
-
-//   useEffect(() => {
-//     // const letters = titleRef.current?.querySelectorAll('.letter')
-//     // letters?.forEach((el, i) => {
-//     //   el.style.animationDelay = `${i * 0.06}s`
-//     // })
-//   }, [])
-
-  const titleText = ""
 
   return (
     <>
@@ -25,16 +14,12 @@ const Home = () => {
         <div className="bg-vignette" />
         <div className="bg-scanlines" />
 
-        {/* Main content */}
         <div className="content">
-          {/* <p className="eyebrow">Hackathon — Anime Edition</p> */}
 
           <h1 className="main-title" >
             Anime YsWs
             <div />
           </h1>
-
-          {/* <div className="divider" /> */}
 
           <p className="tagline">
             You Ship an <strong>anime-themed project</strong>.<br />
