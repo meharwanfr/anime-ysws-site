@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 
 @font-face {
@@ -28,7 +29,27 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap');
+
+@font-face {
+  font-family: 'Abomination';
+  src: url('./assets/fonts/Abominable-Condensed-fc.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NarutoNinja';
+  src: url('./assets/fonts/ninja-naruto/njnaruto.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  /* font-family: "OnePieceFont"; */
+    font-family: "Space Grotesk", sans-serif;
+}
+
 
 :root {
   --crimson: #c31e1e;
@@ -158,7 +179,7 @@
 /* Main title */
 .main-title {
   /* font-family: 'Bebas Neue', sans-serif; */
-  font-size: clamp(80px, 14vw, 140px);
+  font-size: clamp(40px, 7vw, 140px);
   line-height: 0.9;
   letter-spacing: 0.02em;
   color: var(--white);
@@ -222,6 +243,7 @@
 .tagline {
   font-size: clamp(18px, 2.8vw, 26px);
   font-weight: 400;
+  /* font-family: "Abomination"; */
   color: rgba(240, 230, 230, 0.75);
   line-height: 1.7;
   letter-spacing: 0.09em;
@@ -234,6 +256,8 @@
   color: var(--white);
   font-weight: 900;
   position: relative;
+  /* font-family: "Abomination"; */
+
 }
 
 .tagline strong::after {
@@ -259,8 +283,8 @@
 }
 
 .btn {
-  font-family: 'Zen Kaku Gothic New', sans-serif;
-  font-size: 1rem;
+  /* font-family: 'Zen Kaku Gothic New', sans-serif; */
+  font-size: 1.5rem;
   font-weight: bolder;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -270,7 +294,8 @@
   outline: none;
   position: relative;
   transition: all 0.25s ease;
-  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  /* clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%); */
+  clip-path: polygon(14% 0, 100% 0%, 90% 100%, 0% 100%);
 }
 
 .btn-primary {
@@ -283,18 +308,24 @@
   position: absolute;
   inset: 0;
   background: var(--crimson-bright);
-  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  /* clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%); */
+  clip-path: polygon(14% 0, 100% 0%, 90% 100%, 0% 100%);
   opacity: 0;
   transition: opacity 0.25s;
 }
 
 .btn-primary:hover::before {
-  opacity: .51;
+  /* opacity: .51; */
+  border: 3px solid white;
 }
 
 .btn-primary:hover {
-  transform: translateY(-2.7px);
-  box-shadow: 0 8px 30px rgba(195, 30, 30, 0.5);
+  transform: translateY(2.7px);
+  opacity: 0.9;
+  filter: blur(1px);
+  /* border: 1px solid black;
+
+  box-shadow: 0 8px 30px rgba(195, 30, 30, 0.5); */
 }
 
 .btn-secondary {
@@ -305,7 +336,7 @@
 
 .btn-secondary:hover {
   /* border-color: var(--crimson-bright); */
-  color:white;
+  color: white;
   transform: translateY(-2px);
   /* background: rgba(195, 30, 30, 0.06); */
 }
@@ -362,8 +393,4 @@
   to {
     opacity: 1;
   }
-}
-
-* {
-  font-family: "DSFont";
 }
