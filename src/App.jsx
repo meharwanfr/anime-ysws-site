@@ -5,6 +5,7 @@ import Prize from "./pages/Prize"
 import HowToStart from "./pages/HowToStart"
 import Footer from "./pages/Footer"
 import Gallery from "./pages/Gallery"
+import IdeaGenerator from "./pages/IdeaGenerator"
 
 function App() {
   return (
@@ -22,15 +23,20 @@ function App() {
         <div className="bg-white h-0.5 opacity-20"></div>
       </div>
       <Gallery></Gallery>
-          <div className='w-screen px-20 '>
+      <div className='w-screen px-20 '>
+        <div className="bg-white h-0.5 opacity-20"></div>
+      </div>
+
+      <IdeaGenerator></IdeaGenerator>
+      <div className='w-screen px-20 '>
         <div className="bg-white h-0.5 opacity-20"></div>
       </div>
       <FAQ></FAQ>
-          <div className='w-screen px-20 '>
+      <div className='w-screen px-20 '>
         <div className="bg-white h-0.5 opacity-20"></div>
       </div>
       <Footer></Footer>
-    
+
     </main>
   )
 }

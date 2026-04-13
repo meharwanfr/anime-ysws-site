@@ -8,11 +8,11 @@ const projects = [
 
 const Gallery = () => {
     return (
-        <div className='w-screen min-h-[60vh] mb-5 py-4 px-20 text-white'>
+        <div className='w-screen min-h-[70vh] mb-5 py-4 px-20 text-white'>
             <h1 className='text-7xl font-bold opacity-85'>Projects Made by Students</h1>
             <br />
             <p className="text-2xl tracking-widest opacity-70">These are some existing anime themed projects. you are free to take inspiration from these projects.</p>
-            <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 mt-7">
+            <div className="grid grid-cols-2 pt-5 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 mt-7">
 
                 {
                     projects.map(project => (

@@ -44,7 +44,10 @@ const faqs = [
     q: "Can I use AI tools or assets?",
     a: "Only 30% usage of AI in the overall development is allowed, AI generated art is highly discouraged, if you don't know how to make art, then you can make simple manga styled art or maybe use original arts from the internet. Overuse of AI will just result in a souless and barely functional project, so please keep that in mind",
   },
-
+  {
+    q: "What is not allowed ?",
+    a: "This program is for teenagers (13-18yrs old), so please refrain from adding any explicit content, anything that makes others uncomfortable or its not suitable for teenagers will result in ban. If you are unsure if your project's content is safe, dm on slack (@Mehar) or if possible you can ask in the #anime-ysws channel as well.",
+  },
 
 ]
 
