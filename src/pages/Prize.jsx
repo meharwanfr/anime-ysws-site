@@ -10,11 +10,13 @@ import PosterMerch9 from "../assets/poster_merch/Tanjiro_Figurine.png"
 import BerriesSymbol from "../assets/Berrysymbol.png"
 import BerriesSymbolWhite from "../assets/berrysymbol-white.png"
 import BerriesSymbolBrown from "../assets/berrysymbol-brown.png"
-
+import HcStickers from "../assets/poster_merch/hc_stickers.png"
 
 const prizes = [
     { link: PosterMerch9, prize: "15" },
     { link: PosterMerch2, prize: "15" },
+    { link: HcStickers, prize: "20" },
+
     { link: PosterMerch3, prize: "25" },
 
     { link: PosterMerch1, prize: "30" },
@@ -49,9 +51,9 @@ const Prize = () => {
                     </div>
                 ))}
 
-            
+
             </div>
-                <h2 className="mt-7 text-xl opacity-90">if your favorite item is not here just dm me on slack (@Mehar) or fill <a className="underline text-gray-300 " href=" https://forms.fillout.com/t/vvmiuTdm7Pus">this rsvp</a> to make a suggestion there !</h2>
+            <h2 className="mt-7 text-xl opacity-90">if your favorite item is not here just dm me on slack (@Mehar) or fill <a className="underline text-gray-300 " href=" https://forms.fillout.com/t/vvmiuTdm7Pus">this rsvp</a> to make a suggestion there !</h2>
 
         </div>
     )
