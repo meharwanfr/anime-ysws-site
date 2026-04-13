@@ -35,7 +35,7 @@ const Prize = () => {
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 mt-7">
 
                 {prizes.map(prize => (
-                    <div className="border border-[#432623] bg-[#BCA180] p-1">
+                    <div className="border border-[#432623] bg-[#bea382] p-1">
                         <img className="" src={prize.link} alt="" />
                         <div className="font-extrabold w-full bg-[#dbba92] scale-95 text-3xl text-black flex items-center justify-center cursor-pointer hover:bg-[#b99569] hover:-translate-y-0.5 transition-all border border-[#53332f]">
                             <div className="w-fit flex items-center gap-1 my-1">

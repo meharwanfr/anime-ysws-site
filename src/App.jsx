@@ -22,7 +22,13 @@ function App() {
         <div className="bg-white h-0.5 opacity-20"></div>
       </div>
       <Gallery></Gallery>
+          <div className='w-screen px-20 '>
+        <div className="bg-white h-0.5 opacity-20"></div>
+      </div>
       <FAQ></FAQ>
+          <div className='w-screen px-20 '>
+        <div className="bg-white h-0.5 opacity-20"></div>
+      </div>
       <Footer></Footer>
     
     </main>
