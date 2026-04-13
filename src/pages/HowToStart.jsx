@@ -44,12 +44,12 @@ const steps = [
 
 const HowToStart = () => {
   return (
-    <div className="w-screen min-h-screen px-20 py-20 text-white">
+    <div className="w-screen min-h-screen px-6 sm:px-8 md:px-20 py-20 text-white">
 
       {/* <p className="text-sm tracking-[0.3em] uppercase text-white/30 mb-4">
         Getting Started
       </p> */}
-      <h1 className="text-6xl font-bold tracking-tight leading-none mb-20">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-none mb-20">
         How Do I Start?
       </h1>
 
@@ -57,16 +57,16 @@ const HowToStart = () => {
         {steps.map((step) => (
           <div
             key={step.num}
-            className="grid  hover:bg-[#131212] transition-all ease-linear grid-cols-[80px_1fr] gap-8 py-8 group"
+            className="grid hover:bg-[#131212] transition-all ease-linear grid-cols-1 sm:grid-cols-[80px_1fr] gap-6 sm:gap-8 py-8 group"
           >
-            <span className="text-3xl text-white/75 pt-1  font-mono tracking-widest">
+            <span className="text-3xl text-white/75 pt-1 font-mono tracking-widest">
               {step.num}
             </span>
             <div>
               <h2 className="text-3xl font-semibold mb-2 group-hover:text-white/80 transition-colors duration-150">
                 {step.title}
               </h2>
-              <p className="text-xl text-white/60 leading-relaxed max-w-xl">
+              <p className="text-lg sm:text-xl text-white/60 leading-relaxed max-w-xl">
                 {step.desc}
               </p>
             </div>
