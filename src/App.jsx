@@ -4,6 +4,7 @@ import FAQ from "./pages/Faq"
 import Prize from "./pages/Prize"
 import HowToStart from "./pages/HowToStart"
 import Footer from "./pages/Footer"
+import Gallery from "./pages/Gallery"
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
       <div className='w-screen px-20 '>
         <div className="bg-white h-0.5 opacity-20"></div>
       </div>
+      <Gallery></Gallery>
       <FAQ></FAQ>
       <Footer></Footer>
+    
     </main>
   )
 }
