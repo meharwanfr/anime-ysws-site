@@ -26,7 +26,7 @@ const Home = () => {
 
           <div className="cta-row">
             <a href="https://forms.fillout.com/t/vvmiuTdm7Pus" target="_blank"
-              className="text-md font-bold tracking-[0.2em] uppercase text-white/90 border border-white/80 px-6 py-3 hover:bg-white/80 hover:text-black hover:border-white/50 transition-colors duration-150 cursor-pointer bg-transparent"
+              className="text-2xl font-bold tracking-[0.2em] uppercase text-white/90 border border-white/80 px-6 py-3 hover:bg-white/80 hover:text-black hover:border-white/50 transition-colors duration-150 cursor-pointer bg-transparent"
             >
               JOIN US NOW !!
             </a>

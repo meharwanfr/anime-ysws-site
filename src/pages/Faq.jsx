@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "What is not allowed ?",
-    a: "This program is for teenagers (13-18yrs old), so please refrain from adding any explicit content, anything that makes others uncomfortable or its not suitable for teenagers will result in ban. If you are unsure if your project's content is safe, dm on slack (@Mehar) or if possible you can ask in the #anime-ysws channel as well.",
+    a: "This program is for teens (13-18). Explicit or inappropriate content is strictly prohibited and will result in a ban. If you're unsure about your project, DM me (@Mehar) on Slack or ask in the #anime-ysws channel if possible.",
   },
 
 ]
