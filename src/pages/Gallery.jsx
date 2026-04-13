@@ -16,7 +16,7 @@ const Gallery = () => {
 
                 {
                     projects.map(project => (
-                        <div className="border border-[#2b2423] bg-[#bea382] p-2 py-3">
+                        <div className="border border-[#2b2423] bg-white/70 p-2 py-3">
                             <img src={project.pic} alt="" />
                             <h2 className="text-2xl text-black font-bold py-1">{project.title}</h2>
                             <div className="py-0.5 flex items-center gap-4 text-lg">
