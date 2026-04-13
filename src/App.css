@@ -298,6 +298,22 @@
   clip-path: polygon(14% 0, 100% 0%, 90% 100%, 0% 100%);
 }
 
+.btn-footer {
+  /* font-family: 'Zen Kaku Gothic New', sans-serif; */
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  position: relative;
+  transition: all 0.25s ease;
+  /* clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%); */
+  /* clip-path: polygon(14% 0, 100% 0%, 90% 100%, 0% 100%); */
+}
+
 .btn-primary {
   background: var(--crimson);
   color: var(--white);
@@ -308,7 +324,6 @@
   position: absolute;
   inset: 0;
   background: var(--crimson-bright);
-  /* clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%); */
   clip-path: polygon(14% 0, 100% 0%, 90% 100%, 0% 100%);
   opacity: 0;
   transition: opacity 0.25s;

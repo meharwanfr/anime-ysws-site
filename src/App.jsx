@@ -3,6 +3,7 @@ import "./App.css"
 import FAQ from "./pages/Faq"
 import Prize from "./pages/Prize"
 import HowToStart from "./pages/HowToStart"
+import Footer from "./pages/Footer"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <div className="bg-white h-0.5 opacity-20"></div>
       </div>
       <FAQ></FAQ>
+      <Footer></Footer>
     </main>
   )
 }
