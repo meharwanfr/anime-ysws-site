@@ -13,21 +13,23 @@ import BerriesSymbolBrown from "../assets/berrysymbol-brown.png"
 
 
 const prizes = [
-    { link: PosterMerch1, prize: "30" },
+    { link: PosterMerch9, prize: "15" },
     { link: PosterMerch2, prize: "15" },
-    // { link: PosterMerch3, prize: "25" },
+    { link: PosterMerch3, prize: "25" },
+
+    { link: PosterMerch1, prize: "30" },
+    { link: PosterMerch7, prize: "40" },
+
     // { link: PosterMerch4, prize: "25" },
     // { link: PosterMerch5, prize: "25" },
     { link: PosterMerch6, prize: "50" },
-    { link: PosterMerch7, prize: "40" },
     // { link: PosterMerch8, prize: "25" },
-    { link: PosterMerch9, prize: "15" },
 ];
 
 const Prize = () => {
     return (
         <div className='w-screen min-h-[80vh] py-4 px-20 text-white'>
-            <h1 className='text-7xl opacity-85'>Prizes</h1>
+            <h1 className='text-7xl font-bold opacity-85'>We Have Cool Prizes !!</h1>
             <br />
             <p className="text-2xl tracking-widest opacity-80">Earn 10 Berries for every hour shipped! Use them here:</p>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 mt-7">
@@ -49,7 +51,7 @@ const Prize = () => {
 
             
             </div>
-                <h2 className="mt-7 text-xl opacity-90">if you favorite item is not here just dm me on slack (@Mehar) or fill <a className="underline text-gray-300 " href=" https://forms.fillout.com/t/vvmiuTdm7Pus">this rsvp</a> and make a suggestion there !</h2>
+                <h2 className="mt-7 text-xl opacity-90">if your favorite item is not here just dm me on slack (@Mehar) or fill <a className="underline text-gray-300 " href=" https://forms.fillout.com/t/vvmiuTdm7Pus">this rsvp</a> to make a suggestion there !</h2>
 
         </div>
     )

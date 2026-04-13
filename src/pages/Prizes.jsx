@@ -44,7 +44,7 @@ const Prizes = () => {
               alt={prize.alt}
               className="w-full object-contain"
             />
-            <p className="text-2xl font-extrabold tracking-widest font-medium text-center text-gray-200">
+            <p className="text-2xl font-extrabold tracking-widest text-center text-gray-200">
               {prize.alt}
             </p>
 

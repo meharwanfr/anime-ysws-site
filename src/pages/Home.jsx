@@ -25,7 +25,7 @@ const Home = () => {
           </p>
 
           <div className="cta-row">
-            <a href="https://forms.fillout.com/t/vvmiuTdm7Pus" target="_blank" className="btn btn-primary shadow-[0_6px_0_0_rgba(29,78,216,1)] transition-all duration-100 active:translate-y-[4px] active:shadow-[0_2px_0_0_rgba(29,78,216,1)]">
+            <a href="https://forms.fillout.com/t/vvmiuTdm7Pus" target="_blank" className="btn btn-primary shadow-[0_6px_0_0_rgba(29,78,216,1)] transition-all duration-100 active:translate-y-1 active:shadow-[0_2px_0_0_rgba(29,78,216,1)]">
               RSVP Now !!      
               </a>
             {/* <button className="btn btn-secondary">Got Questions?</button> */}
